@@ -1,0 +1,46 @@
+﻿<Window x:Class="HabitTracker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Habit Tracker" Height="600" Width="750">
+
+    <Grid Margin="20">
+        <StackPanel>
+
+            <TextBlock Text="Мои привычки"
+                       FontSize="24"
+                       Margin="0 0 0 15"/>
+
+            <ListBox x:Name="HabitList" Height="340">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Border BorderThickness="1" BorderBrush="Gray" Margin="5" Padding="10">
+                            <StackPanel>
+                                <TextBlock Text="{Binding Name}" FontSize="16"/>
+                                <TextBlock Text="{Binding ReminderIntervalMinutes, StringFormat=Интервал: {0} мин.}"/>
+                                <TextBlock Text="{Binding TodayCompletions, StringFormat=Сегодня: {0}}"/>
+                                <TextBlock Text="{Binding TotalCompletions, StringFormat=Всего: {0}}"/>
+                                <TextBlock Text="{Binding DailyTarget, StringFormat=Цель в день: {0}}"/>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <Button Content="Добавить привычку"
+                    Margin="0 10 0 0"
+                    Height="35"
+                    Click="AddHabit_Click"/>
+
+            <Button Content="Отметить выполнение"
+                    Margin="0 10 0 0"
+                    Height="35"
+                    Click="CompleteHabit_Click"/>
+
+            <Button Content="Удалить привычку"
+                    Margin="0 10 0 0"
+                    Height="35"
+                    Click="DeleteHabit_Click"/>
+
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "Test",
+    "ReminderIntervalMinutes": 1,
+    "IsReminderEnabled": true,
+    "DailyTarget": 2,
+    "TodayCompletions": 1,
+    "TotalCompletions": 1,
+    "LastCompletionDate": "2026-03-10T00:00:00+07:00",
+    "NextReminderTime": "2026-03-10T21:37:48.978057+07:00"
+  },
+  {
+    "Name": "333",
+    "ReminderIntervalMinutes": 3,
+    "IsReminderEnabled": true,
+    "DailyTarget": 3,
+    "TodayCompletions": 0,
+    "TotalCompletions": 0,
+    "LastCompletionDate": "0001-01-01T00:00:00",
+    "NextReminderTime": "2026-03-10T22:49:30.6036262+07:00"
+  },
+  {
+    "Name": "12122",
+    "ReminderIntervalMinutes": 1,
+    "IsReminderEnabled": true,
+    "DailyTarget": 1,
+    "TodayCompletions": 0,
+    "TotalCompletions": 0,
+    "LastCompletionDate": "0001-01-01T00:00:00",
+    "NextReminderTime": "2026-03-10T22:56:49.381403+07:00"
+  }
+]
