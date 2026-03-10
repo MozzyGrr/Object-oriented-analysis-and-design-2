@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LAB1_with_singleton/1.0.0": {
+        "runtime": {
+          "LAB1_with_singleton.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LAB1_with_singleton/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
